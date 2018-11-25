@@ -8,6 +8,10 @@ published: true
 
 	<head>
 		{% include head.html %}
+
+		{% if jekyll.environment == 'production' %}
+    	{% include analytics.html %}
+    	{% endif %}
 	</head>
 
 	<body>
@@ -19,10 +23,6 @@ published: true
 		</div>
 
 		{% include footer.html %}
-
-		{% if jekyll.environment == 'production' %}
-    	{% include analytics.html %}
-    	{% endif %}
 
 	</body>
 
