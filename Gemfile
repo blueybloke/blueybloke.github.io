@@ -5,7 +5,6 @@ group :jekyll_plugins do
     gem "liquid_reading_time"
     gem "liquid_pluralize"
     gem "jekyll-twitter-plugin"
-    gem "jekyll-giphy"
 end
 gem 'html-proofer'
 gem 'tzinfo'
