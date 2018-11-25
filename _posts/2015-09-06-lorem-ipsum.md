@@ -1,6 +1,6 @@
 ---
 title: Lorem Ipsum
-updated: 2015-09-06 15:56
+updated: 2018-11-25 16:48
 ---
 
 ### The standard Lorem Ipsum passage, used since the 1500s
