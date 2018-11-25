@@ -7,6 +7,7 @@ layout: default
 	<div class="center">
 		<h1 class="title">{{ page.title }}</h1>
 		<time class="code">{{ page.date | date: '%B %-d, %Y' }}</time>
+		<span class="code">This article will take {{ content | reading_time | pluralize: "minute" }} to read.</span>
 	</div>
 
 	<div class="divider"></div>
